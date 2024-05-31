@@ -1,4 +1,3 @@
-// ProductList.js
 import { useState, useEffect } from 'react';
 import axios from 'axios'; 
 import { useRouter } from 'next/router';
