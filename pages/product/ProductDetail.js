@@ -1,11 +1,10 @@
-//  productDetail.js
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useRouter } from 'next/router';
 
 const ProductDetail = ({ productId }) => {
   const router = useRouter();
-  const { id } = router.query; // Mengambil id dari query parameter
+  const { id } = router.query; 
   const [product, setProduct] = useState(null);
 
   useEffect(() => {
